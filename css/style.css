@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+h3{
+    display: block;
+    text-align: center;
+    font-size: 25px ;
+    font-style: italic;
+    color: #ff8c00;
+}
+
+.toolbar{
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+nav a {
+    text-align: center;
+    display: inline-block; /* Isso permite que os links sejam exibidos lado a lado */
+    margin: 0 10px; /* Isso adiciona margens para espaçamento entre os links */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: #333; /* Cor do texto dos links */
+}
+
+nav a:hover {
+    color: #ff8c00; /* Cor do texto dos links ao passar o mouse sobre eles */
+}
+
+a{
+    text-align: center;
+    border: solid 1px #333 ;
+    padding: 5px;
+    border-radius: 3px;
+}
+p{
+   font-family: Arial, sans-serif; /* Define uma fonte legível */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.5; /* Espaçamento entre linhas */
+}
+div{
+    margin: auto auto auto auto;
+    padding: 10px;
+    border: solid 0.5px #ddd;
+    border-radius: 8px; /* Arredondamento da borda */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+img{
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+#container_principal{
+    background-color: #f5d7b3;    
+}
+
